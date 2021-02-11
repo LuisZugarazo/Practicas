@@ -60,20 +60,6 @@ $color_terciario: #5a5a5a;
         
     }
 }
-@media screen and (min-width:992px ) and (max-width:1400px){
-    
-    .contacto{
-        padding-top: 50px;
-    h1{
-        font-size: 25px;
-        padding: 0px 0 20px 0;
-        
-    }
-    .contenedor_contacto{
-        padding-bottom: 50px;
-    }
-}
-}
 
 @media screen and (max-width:576px){
     
@@ -112,6 +98,7 @@ $color_terciario: #5a5a5a;
     }
 }
 }
+
 @media screen and (min-width: 577px) and (max-width:768px){
     
     .contacto{
@@ -151,6 +138,21 @@ $color_terciario: #5a5a5a;
             font-size: 12px;
         }
 
+    }
+}
+}
+
+@media screen and (min-width:769px ) and (max-width:1400px){
+    
+    .contacto{
+        padding-top: 50px;
+    h1{
+        font-size: 25px;
+        padding: 0px 0 20px 0;
+        
+    }
+    .contenedor_contacto{
+        padding-bottom: 50px;
     }
 }
 }
