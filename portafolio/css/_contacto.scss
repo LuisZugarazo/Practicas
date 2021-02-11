@@ -112,32 +112,37 @@ $color_terciario: #5a5a5a;
     }
 }
 }
-@media screen and (min-width: 577px) and (max-width:991px){
+@media screen and (min-width: 577px) and (max-width:768px){
     
     .contacto{
         padding-top: 50px;
     h1{
-        font-size: 20px;
+        font-size: 25px;
         padding: 0px 0 20px 0;
         
     }
     .contenedor_contacto{
         padding-bottom: 0px;
+        width: 52%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(12, 1fr);
         
          #input_nombre {
-            grid-column:  3 / span 4;
+            grid-column:  1 / span 6;
             padding: 10px 0px 10px 10px;
         }
         #input_correo {
-            grid-column:  7 / span 4;
+            grid-column:  7 / span 6;
             padding: 10px 0px 10px 10px;
         }
         #input_mensaje{
-            grid-column: 3 / span 8;
+            grid-column: 1 / span 12;
             padding: 10px 0px 0px 10px;
         }
         .btn_enviar{
-            grid-column: 5 / span 4 ;
+            grid-column: 4 / span 6 ;
             padding: 10px 0;
         }
         #input_nombre, #input_correo, #input_mensaje{
