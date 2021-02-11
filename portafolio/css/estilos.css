@@ -361,41 +361,44 @@ header {
   background: #f5f5f5;
   width: 100%;
   margin: 0; }
-  .contenedor_trabajos .trabajos h1 {
-    color: #5a5a5a;
-    font-size: 35px;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    text-align: center;
+  .contenedor_trabajos .trabajos {
     padding: 50px 0; }
-  .contenedor_trabajos .trabajos .fotos_trabajos {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 52%;
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 50px;
-    grid-template-columns: repeat(12, auto);
-    grid-template-rows: auto; }
-    .contenedor_trabajos .trabajos .fotos_trabajos .uno, .contenedor_trabajos .trabajos .fotos_trabajos .dos, .contenedor_trabajos .trabajos .fotos_trabajos .tres, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro, .contenedor_trabajos .trabajos .fotos_trabajos .cinco, .contenedor_trabajos .trabajos .fotos_trabajos .seis, .contenedor_trabajos .trabajos .fotos_trabajos .siete, .contenedor_trabajos .trabajos .fotos_trabajos .ocho {
-      grid-column: span 3;
-      width: 100%;
-      height: 100%; }
-      .contenedor_trabajos .trabajos .fotos_trabajos .uno img, .contenedor_trabajos .trabajos .fotos_trabajos .dos img, .contenedor_trabajos .trabajos .fotos_trabajos .tres img, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro img, .contenedor_trabajos .trabajos .fotos_trabajos .cinco img, .contenedor_trabajos .trabajos .fotos_trabajos .seis img, .contenedor_trabajos .trabajos .fotos_trabajos .siete img, .contenedor_trabajos .trabajos .fotos_trabajos .ocho img {
+    .contenedor_trabajos .trabajos h1 {
+      color: #5a5a5a;
+      font-size: 35px;
+      font-family: "Roboto Slab";
+      font-weight: 400;
+      text-align: center;
+      padding-bottom: 50px; }
+    .contenedor_trabajos .trabajos .fotos_trabajos {
+      margin: 0 auto;
+      padding-bottom: 50px;
+      width: 52%;
+      grid-template-rows: auto;
+      display: grid;
+      padding-bottom: 0px;
+      grid-column-gap: 25px;
+      grid-row-gap: 35px;
+      grid-template-columns: repeat(12, 1fr); }
+      .contenedor_trabajos .trabajos .fotos_trabajos .uno, .contenedor_trabajos .trabajos .fotos_trabajos .dos, .contenedor_trabajos .trabajos .fotos_trabajos .tres, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro, .contenedor_trabajos .trabajos .fotos_trabajos .cinco, .contenedor_trabajos .trabajos .fotos_trabajos .seis, .contenedor_trabajos .trabajos .fotos_trabajos .siete, .contenedor_trabajos .trabajos .fotos_trabajos .ocho {
+        grid-column: span 3;
         width: 100%;
-        border-radius: 10px; }
-      .contenedor_trabajos .trabajos .fotos_trabajos .uno h4, .contenedor_trabajos .trabajos .fotos_trabajos .dos h4, .contenedor_trabajos .trabajos .fotos_trabajos .tres h4, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro h4, .contenedor_trabajos .trabajos .fotos_trabajos .cinco h4, .contenedor_trabajos .trabajos .fotos_trabajos .seis h4, .contenedor_trabajos .trabajos .fotos_trabajos .siete h4, .contenedor_trabajos .trabajos .fotos_trabajos .ocho h4 {
-        text-align: center;
-        margin-top: 20px;
-        font-family: "Roboto Slab", Sans-serif;
-        color: #f88000;
-        font-size: 20px;
-        font-weight: 400; }
-      .contenedor_trabajos .trabajos .fotos_trabajos .uno p, .contenedor_trabajos .trabajos .fotos_trabajos .dos p, .contenedor_trabajos .trabajos .fotos_trabajos .tres p, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro p, .contenedor_trabajos .trabajos .fotos_trabajos .cinco p, .contenedor_trabajos .trabajos .fotos_trabajos .seis p, .contenedor_trabajos .trabajos .fotos_trabajos .siete p, .contenedor_trabajos .trabajos .fotos_trabajos .ocho p {
-        text-align: center;
-        font-family: "Roboto", Sans-serif;
-        font-size: 16px;
-        font-weight: 300; }
+        height: 100%; }
+        .contenedor_trabajos .trabajos .fotos_trabajos .uno img, .contenedor_trabajos .trabajos .fotos_trabajos .dos img, .contenedor_trabajos .trabajos .fotos_trabajos .tres img, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro img, .contenedor_trabajos .trabajos .fotos_trabajos .cinco img, .contenedor_trabajos .trabajos .fotos_trabajos .seis img, .contenedor_trabajos .trabajos .fotos_trabajos .siete img, .contenedor_trabajos .trabajos .fotos_trabajos .ocho img {
+          width: 100%;
+          border-radius: 50%; }
+        .contenedor_trabajos .trabajos .fotos_trabajos .uno h4, .contenedor_trabajos .trabajos .fotos_trabajos .dos h4, .contenedor_trabajos .trabajos .fotos_trabajos .tres h4, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro h4, .contenedor_trabajos .trabajos .fotos_trabajos .cinco h4, .contenedor_trabajos .trabajos .fotos_trabajos .seis h4, .contenedor_trabajos .trabajos .fotos_trabajos .siete h4, .contenedor_trabajos .trabajos .fotos_trabajos .ocho h4 {
+          text-align: center;
+          margin-top: 20px;
+          font-family: "Roboto Slab", Sans-serif;
+          color: #f88000;
+          font-size: 19px;
+          font-weight: 400; }
+        .contenedor_trabajos .trabajos .fotos_trabajos .uno p, .contenedor_trabajos .trabajos .fotos_trabajos .dos p, .contenedor_trabajos .trabajos .fotos_trabajos .tres p, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro p, .contenedor_trabajos .trabajos .fotos_trabajos .cinco p, .contenedor_trabajos .trabajos .fotos_trabajos .seis p, .contenedor_trabajos .trabajos .fotos_trabajos .siete p, .contenedor_trabajos .trabajos .fotos_trabajos .ocho p {
+          text-align: center;
+          font-family: "Roboto", Sans-serif;
+          font-size: 16px;
+          font-weight: 300; }
 
 @media screen and (max-width: 576px) {
   .contenedor_trabajos .trabajos {
@@ -663,4 +666,5 @@ header {
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-size-adjust: none; }
