@@ -1,0 +1,113 @@
+$color_primario: #f88000;
+$color_secundario: #ABABAB;
+$color_terciario: #5a5a5a;
+
+.contenedor_about{
+        display: grid;
+        width: 52%;
+        margin: 0 auto;
+        grid-template-columns: repeat(12, [col-start] auto);
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+    padding-bottom: 50px;
+    .about{
+        grid-column: col-start / -1;
+        justify-self: center;
+        width: 70%;
+        
+        h1{
+            font-size: 35px;
+            font-family: "Roboto Slab";
+            font-weight: 400;
+            color: $color_primario;
+            text-align: center;
+            padding-top: 120px;
+        }
+        p{
+            font-size: 21.5px;
+            font-family: "Roboto";
+            font-weight: 300;
+            padding-top: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: #5a5a5a;
+
+        }
+    }
+}
+
+@media screen and (min-width:992px ) and (max-width:1400px){
+    
+    .contenedor_about{
+        display: block;
+        grid-template-columns: repeat(12, [col-start] auto);
+        grid-template-rows: 1fr;
+       
+    .about{
+        margin: 0 auto;
+        padding-top: 75px;
+        
+        h1{
+            font-size: 25px;
+            padding-top: 0px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 20px;
+
+        }
+    }
+}
+    
+}
+
+@media screen and (max-width:576px){
+    
+    .contenedor_about{
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 50px;
+       
+    .about{
+        margin: 0 auto;
+        padding-top: 75px;
+        width: 100%;
+        
+        h1{
+            font-size: 20px;
+            padding-top: 0px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 19px;
+
+        }
+    }
+}
+    
+}
+
+@media screen and (min-width: 577px) and (max-width:991px){
+    
+    .contenedor_about{
+        display: block;
+        grid-template-columns: repeat(12, [col-start] auto);
+        grid-template-rows: 1fr;
+       
+    .about{
+        margin: 0 auto;
+        padding-top: 75px;
+        
+        h1{
+            font-size: 25px;
+            padding-top: 0px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 20px;
+
+        }
+    }
+}
+    
+}

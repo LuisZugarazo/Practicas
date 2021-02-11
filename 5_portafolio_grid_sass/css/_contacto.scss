@@ -1,0 +1,151 @@
+$color_primario: #f88000;
+$color_secundario: #ABABAB;
+$color_terciario: #5a5a5a;
+
+.contacto{
+    h1{
+        color: $color_primario;
+        font-size: 35px;
+        font-family: "Roboto Slab";
+        font-weight: 400;
+        text-align: center;
+        padding: 50px 0;
+        
+    }
+    .contenedor_contacto{
+        width: 52%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows:[row-start] auto ;
+        
+
+        #input_nombre {
+            grid-column:  4 / span 3;
+            color: $color_primario;
+            padding: 10px 0px 10px 20px;
+
+
+
+        }
+        #input_correo {
+            grid-column:  7 / span 3;
+            color: $color_primario;
+            padding: 10px 0px 10px 20px;
+
+        }
+        #input_mensaje{
+            grid-column: 4 / span 6;
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            padding: 10px 0px 0px 20px;
+        }
+        .btn_enviar{
+            grid-column: 6 / span 2 ;
+            background-color: $color_primario;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 0;
+
+        }
+        
+        #input_nombre, #input_correo, #input_mensaje{
+            border: solid 1px $color_secundario;
+            border-radius: 5px;
+        }
+
+        
+    }
+}
+@media screen and (min-width:992px ) and (max-width:1400px){
+    
+    .contacto{
+        padding-top: 50px;
+    h1{
+        font-size: 25px;
+        padding: 0px 0 20px 0;
+        
+    }
+    .contenedor_contacto{
+        padding-bottom: 50px;
+    }
+}
+}
+
+@media screen and (max-width:576px){
+    
+    .contacto{
+        padding-top: 50px;
+    h1{
+        font-size: 20px;
+        padding: 0px 0 20px 0;
+        
+    }
+    .contenedor_contacto{
+        padding-bottom: 0px;
+        
+         #input_nombre {
+            grid-column:  1 / span 6;
+            padding: 10px 0px 10px 10px;
+        }
+        #input_correo {
+            grid-column:  7 / span 6;
+            padding: 10px 0px 10px 10px;
+        }
+        #input_mensaje{
+            grid-column: 1 / span 12;
+            padding: 10px 0px 0px 10px;
+        }
+        .btn_enviar{
+            grid-column: 4 / span 6 ;
+            padding: 10px 0;
+        }
+        #input_nombre, #input_correo, #input_mensaje{
+            border: solid 1px $color_secundario;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+    }
+}
+}
+@media screen and (min-width: 577px) and (max-width:991px){
+    
+    .contacto{
+        padding-top: 50px;
+    h1{
+        font-size: 20px;
+        padding: 0px 0 20px 0;
+        
+    }
+    .contenedor_contacto{
+        padding-bottom: 0px;
+        
+         #input_nombre {
+            grid-column:  3 / span 4;
+            padding: 10px 0px 10px 10px;
+        }
+        #input_correo {
+            grid-column:  7 / span 4;
+            padding: 10px 0px 10px 10px;
+        }
+        #input_mensaje{
+            grid-column: 3 / span 8;
+            padding: 10px 0px 0px 10px;
+        }
+        .btn_enviar{
+            grid-column: 5 / span 4 ;
+            padding: 10px 0;
+        }
+        #input_nombre, #input_correo, #input_mensaje{
+            border: solid 1px $color_secundario;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+    }
+}
+}

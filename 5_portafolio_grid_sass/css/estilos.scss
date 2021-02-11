@@ -1,0 +1,15 @@
+@import "header";
+@import "about";
+@import "trabajos";
+@import "contacto";
+@import "footer";
+
+$color_primario: #f88000;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
