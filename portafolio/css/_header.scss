@@ -111,7 +111,7 @@ header {
         background-position: center;
 
         .contenedor {
-            width: 52%;
+            width: 65%;
             margin: auto;
             padding: 0px 0;
             height: 300px;
@@ -121,7 +121,7 @@ header {
             grid-gap: 10px;
 
             nav {
-                grid-column: 3 / span 8;
+                grid-column: 2 / span 10;
                 grid-row: 2;
                 justify-self: auto;
                 padding: 0px 0;
@@ -143,7 +143,7 @@ header {
                 text-align: center;
                 border: 2px solid white;
                 border-radius: 10px;
-                grid-column: 3 / span 8;
+                grid-column: 2 / span 10;
                 grid-row: 5 / span 4;
                 justify-self: auto;
                 align-self: auto;

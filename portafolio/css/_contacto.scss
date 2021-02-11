@@ -72,27 +72,32 @@ $color_terciario: #5a5a5a;
     }
     .contenedor_contacto{
         padding-bottom: 0px;
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows:[row-start] auto ;
         
          #input_nombre {
             grid-column:  1 / span 6;
-            padding: 10px 0px 10px 10px;
+            padding: 7px 0px 7px 10px;
         }
         #input_correo {
             grid-column:  7 / span 6;
-            padding: 10px 0px 10px 10px;
+            padding: 7px 0px 7px 10px;
         }
         #input_mensaje{
             grid-column: 1 / span 12;
             padding: 10px 0px 0px 10px;
+            height: 100px;
         }
         .btn_enviar{
             grid-column: 4 / span 6 ;
-            padding: 10px 0;
+            padding: 7px 0;
+            font-size: 11px;
         }
         #input_nombre, #input_correo, #input_mensaje{
             border: solid 1px $color_secundario;
             border-radius: 5px;
-            font-size: 12px;
+            font-size: 10px;
         }
 
     }

@@ -79,7 +79,7 @@ header {
     background-size: cover;
     background-position: center; }
     header .contenedor {
-      width: 52%;
+      width: 65%;
       margin: auto;
       padding: 0px 0;
       height: 300px;
@@ -88,7 +88,7 @@ header {
       grid-template-rows: repeat(12, 1fr);
       grid-gap: 10px; }
       header .contenedor nav {
-        grid-column: 3 / span 8;
+        grid-column: 2 / span 10;
         grid-row: 2;
         justify-self: auto;
         padding: 0px 0;
@@ -105,7 +105,7 @@ header {
         text-align: center;
         border: 2px solid white;
         border-radius: 10px;
-        grid-column: 3 / span 8;
+        grid-column: 2 / span 10;
         grid-row: 5 / span 4;
         justify-self: auto;
         align-self: auto; }
@@ -402,17 +402,21 @@ header {
 
 @media screen and (max-width: 576px) {
   .contenedor_trabajos .trabajos {
-    padding: 50px 0; }
+    padding: 50px 0;
+    width: 52%;
+    margin: 0 auto; }
     .contenedor_trabajos .trabajos h1 {
       font-size: 20px;
       padding: 0px 0 25px 0; }
     .contenedor_trabajos .trabajos .fotos_trabajos {
+      margin: 0 auto;
       padding-bottom: 0px;
-      grid-column-gap: 25px;
-      grid-row-gap: 35px;
-      grid-template-columns: repeat(12, 1fr); }
+      grid-column-gap: 10px;
+      grid-row-gap: 25px;
+      grid-template-columns: repeat(12, 1fr);
+      width: 100%; }
       .contenedor_trabajos .trabajos .fotos_trabajos .uno, .contenedor_trabajos .trabajos .fotos_trabajos .dos, .contenedor_trabajos .trabajos .fotos_trabajos .tres, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro, .contenedor_trabajos .trabajos .fotos_trabajos .cinco, .contenedor_trabajos .trabajos .fotos_trabajos .seis, .contenedor_trabajos .trabajos .fotos_trabajos .siete, .contenedor_trabajos .trabajos .fotos_trabajos .ocho {
-        grid-column: span 6;
+        grid-column: 2 / span 10;
         width: 100%;
         height: 100%; }
         .contenedor_trabajos .trabajos .fotos_trabajos .uno img, .contenedor_trabajos .trabajos .fotos_trabajos .dos img, .contenedor_trabajos .trabajos .fotos_trabajos .tres img, .contenedor_trabajos .trabajos .fotos_trabajos .cuatro img, .contenedor_trabajos .trabajos .fotos_trabajos .cinco img, .contenedor_trabajos .trabajos .fotos_trabajos .seis img, .contenedor_trabajos .trabajos .fotos_trabajos .siete img, .contenedor_trabajos .trabajos .fotos_trabajos .ocho img {
@@ -519,23 +523,28 @@ header {
       font-size: 20px;
       padding: 0px 0 20px 0; }
     .contacto .contenedor_contacto {
-      padding-bottom: 0px; }
+      padding-bottom: 0px;
+      grid-column-gap: 10px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: [row-start] auto; }
       .contacto .contenedor_contacto #input_nombre {
         grid-column: 1 / span 6;
-        padding: 10px 0px 10px 10px; }
+        padding: 7px 0px 7px 10px; }
       .contacto .contenedor_contacto #input_correo {
         grid-column: 7 / span 6;
-        padding: 10px 0px 10px 10px; }
+        padding: 7px 0px 7px 10px; }
       .contacto .contenedor_contacto #input_mensaje {
         grid-column: 1 / span 12;
-        padding: 10px 0px 0px 10px; }
+        padding: 10px 0px 0px 10px;
+        height: 100px; }
       .contacto .contenedor_contacto .btn_enviar {
         grid-column: 4 / span 6;
-        padding: 10px 0; }
+        padding: 7px 0;
+        font-size: 11px; }
       .contacto .contenedor_contacto #input_nombre, .contacto .contenedor_contacto #input_correo, .contacto .contenedor_contacto #input_mensaje {
         border: solid 1px #ABABAB;
         border-radius: 5px;
-        font-size: 12px; } }
+        font-size: 10px; } }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .contacto {
@@ -618,7 +627,7 @@ header {
     background: #5a5a5a;
     margin-top: 50px; }
     .contenedor_footer .footer {
-      width: 52%;
+      width: 80%;
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -632,7 +641,7 @@ header {
         align-items: center; }
         .contenedor_footer .footer div a {
           color: white;
-          font-size: 20px;
+          font-size: 15px;
           text-decoration: none;
           font-family: "Roboto", sans-serif;
           padding: 10px 20px;
