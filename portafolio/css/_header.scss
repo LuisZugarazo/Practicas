@@ -54,8 +54,8 @@ header {
             .caja {
 
                 color: white;
-                height: 151px;
-                width: 360px;
+                height: 200px;
+                width: 400px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -72,8 +72,9 @@ header {
                 p {
                     font-size: 25px;
                     font-weight: 300;
-                    line-height: 40px;
+                    line-height: 0px;
                     font-family: 'Roboto', sans-serif;
+                    padding-top: 15px;
                 }
             }
         }
@@ -145,7 +146,7 @@ header {
                 border: 2px solid white;
                 border-radius: 10px;
                 grid-column: 1 / -1;
-                grid-row: 5 / span 4;
+                grid-row: 5 / span 5;
                 justify-self: center;
                 align-self: auto;
                 width: 200px;
@@ -166,13 +167,16 @@ header {
                         font-size: 20px;
                         font-weight: 400;
                         font-family: 'Roboto Slab', sans-serif;
+                        margin: 0;
 
                     }
 
                     p {
                         font-size: 12px;
+                        margin: 0;
+                        padding-top: 10px;
                         font-weight: 300;
-                        line-height: 25px;
+                        line-height: 0px;
                         font-family: 'Roboto', sans-serif;
                     }
                 }
@@ -246,7 +250,7 @@ header {
                 border: 2px solid white;
                 border-radius: 10px;
                 grid-column: 1 / -1;
-                grid-row: 6 / span 4;
+                grid-row: 5 / span 5;
                 justify-self: center;
                 align-self: auto;
                 width: 250px;
@@ -267,14 +271,16 @@ header {
                         font-size: 25px;
                         font-weight: 400;
                         font-family: 'Roboto Slab', sans-serif;
-                        line-height: 32px;
+                        margin: 0;
 
                     }
 
                     p {
                         font-size: 15px;
+                        margin: 0;
+                        padding-top: 12px;
                         font-weight: 300;
-                        line-height: 25px;
+                        line-height: 0px;
                         font-family: 'Roboto', sans-serif;
                     }
                 }
@@ -344,16 +350,15 @@ header {
                 }
             }
 
-            blockquote {
+             blockquote {
                 text-align: center;
                 border: 2px solid white;
                 border-radius: 10px;
                 grid-column: 1 / -1;
-                grid-row: 6 / span 4;
-                justify-self: auto;
+                grid-row: 5 / span 5;
+                justify-self: center;
                 align-self: auto;
                 width: 300px;
-                margin: 0 auto;
 
 
                 .caja {
@@ -368,17 +373,20 @@ header {
 
 
                     h1 {
-                        font-size: 35px;
+                        font-size: 30px;
                         font-weight: 400;
                         font-family: 'Roboto Slab', sans-serif;
+                        margin: 0;
 
                     }
 
                     p {
                         font-size: 15px;
+                        margin: 0;
                         font-weight: 300;
-                        line-height: 25px;
+                        line-height: 0px;
                         font-family: 'Roboto', sans-serif;
+                        padding-top: 12px;
                     }
                 }
             }
@@ -447,7 +455,7 @@ header {
                 border: 2px solid white;
                 border-radius: 10px;
                 grid-column: 1 / -1;
-                grid-row: 6 / span 4;
+                grid-row: 5 / span 5;
                 justify-self: center;
                 align-self: auto;
                 width: 300px;
@@ -465,17 +473,20 @@ header {
 
 
                     h1 {
-                        font-size: 35px;
+                        font-size: 30px;
                         font-weight: 400;
                         font-family: 'Roboto Slab', sans-serif;
+                        margin: 0;
 
                     }
 
                     p {
                         font-size: 15px;
+                        margin: 0;
                         font-weight: 300;
-                        line-height: 25px;
+                        line-height: 0px;
                         font-family: 'Roboto', sans-serif;
+                        padding-top: 15px;
                     }
                 }
             }
